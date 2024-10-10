@@ -1,5 +1,6 @@
 # Malwina Prutis - website
-![Logo](./share.png)
+![Logo](./images/share.png)
+
 ## Demo version
 https://malwinaprutis.github.io/Prutis/
 ### Description
