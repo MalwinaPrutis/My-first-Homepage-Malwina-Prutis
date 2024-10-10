@@ -1,5 +1,5 @@
 # Malwina Prutis - website
-![Logo strony](https://github.com/MalwinaPrutis/homepage/blob/main/images/share.png?raw=true)
+![Logo](./share.png)
 ## Demo version
 https://malwinaprutis.github.io/Prutis/
 ### Description
