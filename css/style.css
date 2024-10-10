@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+  }
+  
+  .body {
+    background-color: #fce6fc;
+  }
+  
+  .body--background {
+    background-color: #fff5ff;
+  }
+  
+  .image {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+  }
+  
+  .header {
+    max-width: 1000px;
+    margin: auto;
+    color: #c82b87;
+  }
+  
+  .header__header {
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #c82b87;
+  }
+  
+  .navigation {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fce6fc;
+  }
+  
+  .navigation__list {
+    list-style: none;
+    color: #c82b87;
+  }
+  
+  .navigation__link:hover {
+    color: #c82b87;
+  }
+  
+  .navigation__item {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .navigation__link {
+    text-decoration: none;
+    color: #aa22aa;
+  }
+  
+  .nav__link:hover {
+    text-decoration: none;
+    background-color: #cc66b1;
+    padding: 15px 0px;
+    border-radius: 10px;
+  }
+  
+  .section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .section__header {
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #123456;
+  }
+  
+  .section__paragraph {
+    font-size: 16px;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+  }
+  .table__caption {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin: auto;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .table__row:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .table__cell {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .table__cell--header {
+    background-color: #fff4f4;
+  }
+  
+  .table__link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .footer {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer__paragraph {
+    text-align: center;
+  }
+  

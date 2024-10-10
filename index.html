@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moduł 4 BEM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+  <header class="header">
+    <h1 class="header__header">Homepage</h1>
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item"><a class="navigation__link" href="#o-mnie">Doświadczenie i ulubione pasje</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#moje-cele">Najbliższe cele</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#kursy-szkolenia">Kursy i szkolenia</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="o-mnie" class="section">
+      <h2 class="section__header">Doświadczenie</h2>
+      <p class="section__paragraph">
+        Jestem dyplomowanym, zawodowym, koncertującym muzykiem. Od 30 lat gram koncerty w kraju i za granicą.Od 18 lat prowadzę prywatne lekcje gry na skrzypcach i pianinie.
+      </p>
+      <h1 class="header">Malwina Prutis</h1>
+      <img width="700" height="300" src="https://i.postimg.cc/mkK5JFzM/Malwina-Prutis-Muzyczna-Oprawa.webp" alt="Malwina Prutis">
+      <img width="400" height="300" src="https://i.postimg.cc/Dfbkd2bs/maltanczyk-szczeniaczki-z-rodowodem-gotowe-do-kowary-570283794.jpg" alt="Hodowla Maltańczyków Kochające Serce">
+      <h2 class="subHeader">Ulubione pasje</h2>
+      <p>
+        <strong>Od zawsze pasjonuje mnie gra na instrumentach, uwielbiam egzotyczne podróże oraz przytulanie przyjacielskich zwierząt.</strong> Gram na skrzypcach i pianinie od 32 lat. Jako koncertujący muzyk zajmuję się muzyczną oprawą uroczystości.
+        Najczęściej na ślubach gram w kościele, <i>utwory liturgiczne</i> oraz <i>muzykę klasyczną</i>.
+        Od 19 lat prowadzę prywatne lekcje gry na skrzypcach. Zakres zajęć obejmuje naukę <b>teorii muzyki</b>, <b>czytania nut</b> oraz <b>kształcenia słuchu</b>.
+        <br>Nauczanie i tworzenie muzyki sprawia mi <em>ogromną radość</em>.
+      </p>
+      <p>
+        <a href="https://www.weselezklasa.pl/ogloszenia-weselne/spelniamy-muzyczne-marzenia,45665/" target="_blank">Kliknij tutaj, by odwiedzić stronę Muzycznej Oprawy Malwiny Prutis</a>.
+        Z miłości do zwierząt prowadzę hodowlę Maltańczyków o nazwie "Kochające Serce Hodowla Maltańczyków Malwina i Andrzej Prutis".
+        <a href="https://letmegooglethat.com/?q=https://www.facebook.com/Malwina.Aniela" target="_blank">Kliknij tutaj, by odwiedzić stronę</a>.
+        <a href="https://letmegooglethat.com/?q=https://www.zlotafirma.pl/company/kochajace-serce-hodowla-psow-rasy-maltanczyk-malwina-i-andrzej-prutis-4059940" target="_blank">Kliknij tutaj, by odwiedzić stronę</a>.
+      </p>
+      <h2 class="subHeader">
+        Wykształcenie
+      </h2>
+      <p>Państwowa Szkoła Muzyczna I i II st. im. Stanisława Moniuszki w Jeleniej Górze.
+        Nauczyciel dyplomowany. Skrzypce, altówka, pianino.
+        <br>
+        Dyplomowany Technik masażysta.
+      </p>
+      <p>
+        Uniwersytet Ekonomiczny we Wrocławiu.
+        Magister
+        Zarządzania Gospodarką Turystyczną i Hotelarstwem.
+
+      </p>
+      <p class="section__paragraph">
+        Obecnie uczę się programowania w szkole YouCode, bardzo zależy mi aby w przyszłości pracować zdalnie w branży IT.
+      </p>
+      <img class="image js-image" src="https://i.postimg.cc/ydcWxhvh/1710912152801.jpg" alt="Top Logo Frameworks">
+    </section>
+    <section id="moje-cele" class="section">
+      <h2 class="section__header">Najbliższe cele</h2>
+      <ol>
+        <li>nauczyć się React.js
+          <ul>
+            <li> poznać HTML, CSS, JavaScript</li>
+          </ul>
+        </li>
+        <li>poznać frameworki
+          <ul>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+          </ul>
+        </li>
+        <li>ukończyć kurs Frontend Developer</li>
+      </ol>
+    </section>
+    <section id="kursy-szkolenia" class="section">
+      <h2 class="section__header">Ukończone kursy</h2>
+      <table class="table">
+        <caption class="table__caption">Kursy i szkolenia w Polsce (dodatkowo w Grecji ukończyłam 3 miesięczny kurs "Język Grecki współczesny" na uniwersytecie Arystotelesa oraz kurs OPEN WATER DIVER PADI na wyspie Zakynthos)
+        </caption>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="col">Rodzaj</th>
+          <th class="table__cell table__cell--header" scope="col">Cena</th>
+          <th class="table__cell table__cell--header" scope="col">Rok ukończenia</th>
+          <th class="table__cell table__cell--header" scope="col">Informacje o kursie (otwiera się w nowej karcie)</th>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scrope="row">PILOT WYCIECZEK</th>
+          <td class="table__cell">2000zł.</td>
+          <td class="table__cell" rowspan="2">2004</td>
+          <td class="table__cell"><a class="table__link" target="_blank" title="Informacje o kursie" href="https://kadryturystyki.pl/kurs-pilota-wycieczek/">kurs pilota wycieczek</a></td>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header">WYCHOWAWCA PLACÓWEK WYPOCZYNKU DLA DZIECI I MŁODZIEŻY</th>
+          <td class="table__cell">250zł.</td>
+          <td class="table__cell"><a class="table__link" target="_blank" title="Informacje o kursie" href="https://certyfikaty.byd.pl/id,360/wychowawca-w-placowkach-wypoczynku-dzieci-i-mlodziezy">kurs wychowawca w placówkach wypoczynku dzieci i młodzieży</a></td>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header">PRAWO JAZDY KATEGORII B</th>
+          <td class="table__cell">1500zł.</td>
+          <td class="table__cell">2009</td>
+          <td class="table__cell"><a class="table__link" target="_blank" title="Informacje o kursie" href="http://lok.org.pl/osrodki/lok-jelenia-gora">kurs prawo jazdy kat.B</a></td>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header">ZARZĄDZANIE CZASEM Evolvo</th>
+          <td class="table__cell">990zł.</td>
+          <td class="table__cell">2013</td>
+          <td class="table__cell"><a class="table__link" target="_blank" title="Informacje o szkoleniu" href="https://evolvo.pl/trainings/view/12">szkolenie zarządzanie czasem Evolvo</a></td>
+        </tr>
+      </table>
+    </section>
+    <section id="Ustawienia-strony" class="section">
+      <h2 class="section__header">Ustawienia strony</h2>
+      <button class="js-buttonDeletePhoto">Usuń zdjęcie</button>
+      <button class="js-buttonChangeBackground"><span class="js-buttonChangeBackgroundText">Zmień tło</span></button>
+      <button class="js-buttonGoToTop">Wróć na górę strony</button>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__paragraph">Pozdrawiam wszystkich frontend developerów</p>
+  </footer>
+</body>
+
+</html>
