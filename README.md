@@ -2,7 +2,7 @@
 ![Logo](./images/share.png)
 
 ## Demo version
-https://malwinaprutis.github.io/Prutis/
+https://malwinaprutis.github.io/My-first-Homepage-Malwina-Prutis/
 ### Description
 Welcome on my first website 😊 It includes the most important information about me. It is also my first website where I try some CSS styling and JavaScript interactions.This project was inspired by the course "Frontend Developer from the basis" by online programming school YouCode. Hope you'll enjoy it 😊
 
